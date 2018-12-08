@@ -26,6 +26,7 @@ public class MainActivity extends WearableActivity {
             @Override
             public void onClick(View v) {
                 txt.setText(""+Integer.parseInt(num1.getText().toString()) + Integer.parseInt(num2.getText().toString()));
+                txt.setEnabled(true);
             }
         });
 
